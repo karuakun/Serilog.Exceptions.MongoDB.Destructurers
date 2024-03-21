@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Authors>Karuakun</Authors>
+		<Company />
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageProjectUrl>https://github.com/karuakun/Serilog.Exceptions.MongoDB.Destructurers</PackageProjectUrl>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<MinVerTagPrefix>v</MinVerTagPrefix>
+	</PropertyGroup>
+	
+	<ItemGroup>
+    <PackageReference Include="MinVer" Version="5.0.0">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="MongoDB.Driver" Version="2.24.0" />
+    <PackageReference Include="Serilog.Exceptions" Version="8.4.0" />
+  </ItemGroup>
+</Project>
